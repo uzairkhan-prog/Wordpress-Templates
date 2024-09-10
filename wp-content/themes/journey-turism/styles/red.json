@@ -1,0 +1,64 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"version": 2,
+	"title": "Red",
+	"settings": {
+		"color": {
+			"duotone": [],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(-225deg,#231557,#44107a 29%,#ff1361 67%,#fff800)",
+					"name": "Fabled Sunset",
+					"slug": "fabled-sunset"
+				},
+				{
+					"gradient": "linear-gradient(180deg,rgb(18, 18, 18) 0%, rgb(34, 34, 34) 100%)",
+					"name": "Transition",
+					"slug": "transition"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(34, 34, 34) 0%,  rgb(29, 146, 255) 100%)",
+					"name": "Transition-Two",
+					"slug": "transition-two"
+				},
+				{
+					"gradient": "linear-gradient(0deg,rgb(18, 18, 18) 0%, rgb(26, 26, 26) 100%)",
+					"name": "Transition-Three",
+					"slug": "transition-three"
+				}
+			],
+            "palette": [
+				{
+					"color": "#2A2A2A",
+					"name": "Color 1",
+					"slug": "custom-color-1"
+				},
+				{
+					"color": "#C84630",
+					"name": "Color 2",
+					"slug": "custom-color-2"
+				},
+				{
+					"color": "#F8F8F8",
+					"name": "Color 3",
+					"slug": "custom-color-3"
+				},
+				{
+					"color": "#ECCAC3",
+					"name": "Color 4",
+					"slug": "custom-color-4"
+				},
+				{
+					"color": "#E0D1CE",
+					"name": "Color 5",
+					"slug": "custom-color-5"
+				},
+				{
+					"color": "#811300",
+					"name": "Color 6",
+					"slug": "custom-color-6"
+				}
+			]
+		}
+	}
+}

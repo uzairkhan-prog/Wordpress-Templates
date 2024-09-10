@@ -1,0 +1,338 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/product-tab",
+  "title": "Products Showcase Tabs (Pro)",
+  "description": "Effortlessly organize and present your WooCommerce products with our 'Products Showcase Tabs' block. Explore a user-friendly approach to displaying items in categorized tabs, enhancing navigation and optimizing the shopping experience for your visitors.",
+  "category": "cozy-block/woocommerce",
+  "supports": {
+    "html": false,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalTextTransform": true,
+      "__experimentalFontFamily": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalSkipSerialization": [
+        "textDecoration"
+      ],
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "color": {
+      "background": true,
+      "gradients": true,
+      "link": true,
+      "text": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "interactivity": {
+      "clientNavigation": true
+    }
+  },
+  "attributes": {
+    "cover": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    },
+    "siteURL": {
+      "type": "string",
+      "default": ""
+    },
+    "namespace": {
+      "type": "string",
+      "default": "cozy-block/product-tab"
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Products Showcase"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h4"
+    },
+    "titleJustify": {
+      "type": "string",
+      "default": "space-between"
+    },
+    "titleGap": {
+      "type": "string",
+      "default": "26px"
+    },
+    "textAlign": {
+      "type": "string",
+      "default": "left"
+    },
+    "contentGap": {
+      "type": "string",
+      "default": "16px"
+    },
+    "enableOptions": {
+      "type": "object",
+      "default": {
+        "productName": true,
+        "productRating": true,
+        "productImage": true,
+        "productSummary": true,
+        "productPrice": true,
+        "saleBadge": true
+      }
+    },
+    "perPage": {
+      "type": "number",
+      "default": 3
+    },
+    "excerpt": {
+      "type": "number",
+      "default": 20
+    },
+    "gridOptions": {
+      "type": "object",
+      "default": {
+        "masonry": false,
+        "columnCount": 3,
+        "gap": "30px"
+      }
+    },
+    "tabs": {
+      "type": "array",
+      "default": [
+        {
+          "id": "latest",
+          "title": "Latest",
+          "category": "",
+          "layout": "one"
+        }
+      ]
+    },
+    "tabGap": {
+      "type": "string",
+      "default": "0"
+    },
+    "tabStyles": {
+      "type": "object",
+      "default": {
+        "titleFontSize": "20px",
+        "titleFontFamily": "",
+        "titleFontWeight": "600",
+        "titleColor": "#090b10",
+        "padding": {
+          "top": "4px",
+          "right": "10px",
+          "bottom": "4px",
+          "left": "10px"
+        },
+        "borderRadius": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "default": {
+          "border": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "color": "",
+          "bgColor": ""
+        },
+        "active": {
+          "tabOverlay": false,
+          "border": {
+            "width": "",
+            "style": "",
+            "color": ""
+          },
+          "color": "#5566ca",
+          "bgColor": ""
+        },
+        "fontSize": "14px",
+        "fontFamily": "",
+        "fontWeight": "500"
+      }
+    },
+    "separatorStyles": {
+      "type": "object",
+      "default": {
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "borderRadius": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "bgColor": ""
+      }
+    },
+    "itemBoxStyles": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "margin": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": ""
+        },
+        "radius": "0px",
+        "color": {
+          "bg": "",
+          "bgHover": "",
+          "borderHover": ""
+        },
+        "shadow": {
+          "enabled": false,
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "",
+          "position": ""
+        },
+        "shadowHover": {
+          "enabled": false,
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "",
+          "position": ""
+        },
+        "hoverEffect": true
+      }
+    },
+    "imageStyles": {
+      "type": "object",
+      "default": {
+        "width": "",
+        "height": "330px",
+        "hoverEffect": true,
+        "linkProduct": true
+      }
+    },
+    "saleBadge": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": "6px",
+          "right": "4px",
+          "bottom": "6px",
+          "left": "4px"
+        },
+        "border": {
+          "style": "",
+          "width": "",
+          "color": ""
+        },
+        "borderRadius": "100px",
+        "labelBefore": "",
+        "labelAfter": "",
+        "contentType": "default",
+        "position": "right",
+        "top": 6,
+        "right": 4,
+        "left": 4,
+        "rotate": 0,
+        "bgColor": "#5566ca",
+        "fontSize": "12px",
+        "fontFamily": "",
+        "fontWeight": "400",
+        "color": "#fff"
+      }
+    },
+    "productName": {
+      "type": "object",
+      "default": {
+        "marginTop": "6px",
+        "marginBottom": "4px",
+        "fontSize": "20px",
+        "fontFamily": "",
+        "fontWeight": "600",
+        "color": "",
+        "colorHover": ""
+      }
+    },
+    "productPrice": {
+      "type": "object",
+      "default": {
+        "marginTop": "16px",
+        "marginBottom": "0",
+        "fontSize": "16px",
+        "fontFamily": "",
+        "fontWeight": "500",
+        "color": "#090b10"
+      }
+    },
+    "productRating": {
+      "type": "object",
+      "default": {
+        "marginTop": "16px",
+        "marginBottom": "0",
+        "fontSize": "14px",
+        "fontFamily": "",
+        "fontWeight": "500",
+        "color": "",
+        "iconColor": "#f90"
+      }
+    }
+  },
+  "editorScript": [
+    "cozy-block--product-tab"
+  ],
+  "editorStyle": [
+    "cozy-block--product-tab--editor-style"
+  ],
+  "viewScript": [
+    "cozy-block-scripts"
+  ],
+  "style": [
+    "cozy-block--product-tab--style"
+  ],
+  "render": "file:./render.php"
+}

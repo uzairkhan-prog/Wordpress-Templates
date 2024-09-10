@@ -1,0 +1,259 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#000e1b",
+					"name": "Color 1",
+					"slug": "custom-color-1"
+				},
+				{
+					"color": "#68b684",
+					"name": "Color 2",
+					"slug": "custom-color-2"
+				},
+				{
+					"color": "#FCFFFA",
+					"name": "Color 3",
+					"slug": "custom-color-3"
+				},
+				{
+					"color": "#B2E2C3",
+					"name": "Color 4",
+					"slug": "custom-color-4"
+				},
+				{
+					"color": "#C9D4CD",
+					"name": "Color 5",
+					"slug": "custom-color-5"
+				},
+				{
+					"color": "#003E17",
+					"name": "Color 6",
+					"slug": "custom-color-6"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Tenor Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/bx6ANxqUneKx06UkIXISr3dyC22IyqI.woff2"
+						}
+					],
+					"fontFamily": "\"Tenor Sans\", sans-serif",
+					"name": "Tenor Sans",
+					"slug": "tenor-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": "file:./assets/fonts/KFOjCnqEu92Fr1Mu51TLBBc4AMX6lJBP.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/KFOjCnqEu92Fr1Mu51TzBhc4AMX6lJBP.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "file:./assets/fonts/KFOjCnqEu92Fr1Mu51S7ABc4AMX6lJBP.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/KFOkCnqEu92Fr1Mu52xKKTM1K9nz.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "file:./assets/fonts/KFOjCnqEu92Fr1Mu51TjARc4AMX6lJBP.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": "file:./assets/fonts/KFOiCnqEu92Fr1Mu51QrIzIXLsnzjYk.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": "file:./assets/fonts/KFOlCnqEu92Fr1MmYUtvBh05IsDqlA.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/KFOlCnqEu92Fr1MmWUlvBh05IsDqlA.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "file:./assets/fonts/KFOlCnqEu92Fr1MmEU9vBh05IsDqlA.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": "file:./assets/fonts/KFOkCnqEu92Fr1MmgWxKKTM1K9nz.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "file:./assets/fonts/KFOlCnqEu92Fr1MmSU5vBh05IsDqlA.woff2"
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2"
+						}
+					],
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "18px",
+					"slug": "smallbig"
+				},
+				{
+					"name": "Medium",
+					"size": "30px",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "54px",
+					"slug": "large"
+				},
+				{
+					"name": "xLarge",
+					"size": "64px",
+					"slug": "x-large"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/group": {
+				"spacing": {
+					"blockGap": "0",
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					},
+					"padding": {
+						"bottom": "0",
+						"left": "0",
+						"right": "0",
+						"top": "0"
+					}
+				}
+			},
+			"core/post-content": {
+				"spacing": {
+					"blockGap": "0"
+				}
+			},
+			"core/post-excerpt": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-color-1)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--custom-color-1)"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "var(--wp--preset--font-size--smallbig)",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"core/post-template": {
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--80)"
+				}
+			},
+			"core/post-title": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-color-3)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--custom-color-3)"
+						}
+					}
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--tenor-sans)",
+					"fontSize": "var(--wp--preset--font-size--x-large)"
+				}
+			}
+		},
+		"css": "a{\n   text-decoration: none;\n}\nbody{\n    overflow-x: hidden;\n}\n.default-first-block, .default-footer{\n   margin-block-start: 0px;\n}\n.box-home-services{\n    min-width: 250px !important;\nheight: 800px !important;\n}\n.imgs-home-services img{\n            max-width: max-content\n !important;\n    }\n.logo-footer img{\n   object-fit: contain !important;\n}\n\n.links-footer > .has-child > .wp-block-navigation__submenu-container{\n  display: none !important;\n}\n\n.marquees{\n  cursor: pointer !important;\n  transition: .7s all !important;\nflex: 1 !important;\n}\n.marquees > .wp-block-cover__background.has-background-dim.has-background-dim-40{\n  transition: .7s all !important;\n}\n.marquees:hover > .wp-block-cover__background.has-background-dim.has-background-dim-40{\n  opacity: 0 !important;\n}\n.marquees:hover > .wp-block-cover__image-background{\n  filter: none !important;\n}\n.marquees > .wp-block-cover__image-background{\n  transition: .7s all !important;\n}\n\n::-webkit-scrollbar {\n    width: 10px;\n  }\n  \n::-webkit-scrollbar-track {\n    background: var(--wp--preset--color--custom-color-3);\n}\n  \n::-webkit-scrollbar-thumb {\n    background: var(--wp--preset--color--custom-color-2);\n    border-radius: 20px;\n}\n\n@media screen and (max-width: 768px) {\n.fade-up, .fade-left, .fade-right{\n    opacity: 1;\n    transform: translateX(0), translateY(0);\n}\n    .containers-home-start{\n        padding: 0 !important;\n    }\n    .texts-home-start{\n        flex-basis: 90vw !important;\n    }\n.btn-contact{\n   display: none !important;\n}\n    .section-home-blog{\n        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;\n    }\n    .imgs-home-blog{\n        height: auto !important;\n        width: 80vw !important;\n    }\n    .imgs-home-services{\n        width: 90px !important;\n    }\n      .imgs-home-services img{\n    width: 90px !important;\n  }\n  .container-imgs-home-services {\n    flex-direction: column !important;\n  }\n  .box-home-services {\n    min-width: 200px !important;\n    height: auto !important;\n  }\n    .section-home-services{\n        flex-wrap: wrap !important;\n    }\n  .marquee > .container-marquees{\n    flex-direction: column !important;\n    align-items: stretch !important;\n  }\n  .marquee-alternative{\n    flex-direction: column !important;\n    align-items: stretch !important;\n  }\n    .menu{\n        padding-right: 1rem !important;\n        padding-left: 1rem !important;\n    }\n    .title-home{\n        font-size: 50px !important;\n    }\n.title-destination{\n        flex-direction: column !important;\n    }\n.container-blog{\n        padding-right: 1rem \n !important;\n        padding-left: 1rem \n !important;\n    }\n    .imgs-blog{\n        width: 80vw \n !important;\n    }\n.container-texts-blog{\n        max-width: 80vw !important;\n    }\n    .big-titles{\n        font-size: 35px !important;\n    }\n    \n}\n@media screen and (max-width: 450px) {\n    .container-blog {\n        padding-right: 0.5rem !important;\n        padding-left: 0.5rem !important;\n      }\n}\n:root{--wp--style--global--content-size:100%;--wp--style--global--wide-size:1000px}body{background-color:#fff!important}"
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+}
